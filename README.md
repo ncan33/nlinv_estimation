@@ -1,6 +1,6 @@
 # nlinv_estimation
  
-Nonlinear inversion (NLINV)-based parameter (e.g., water and sttic off-resonance) estimation in image domain.
+Nonlinear inversion (NLINV)-based parameter estimation (e.g., water and sttic off-resonance) in image domain.
 
 The theory is described in
 
@@ -13,5 +13,6 @@ Nam Gyun Lee, University of Southern California, Dec 2021.
 
 ## Example usage
    
-   - Load human_axial_data.mat
-   - Run demo_human_nlinv_estimation_rho_B0.m
+   * Load `human_axial_data.mat`.
+   
+   * Run `demo_human_nlinv_estimation_rho_B0.m`.
