@@ -4,8 +4,8 @@ Nonlinear inversion (**NLINV**)-based parameter estimation (e.g., water and stti
 
 The theory is described in
 
-"MaxGIRF: Image Reconstruction Incorporating Concomitant
-Field and Gradient Impulse Response Function Effects".
+"**MaxGIRF: Image Reconstruction Incorporating Concomitant
+Field and Gradient Impulse Response Function Effects**".
 
 This code is distributed under the BSD license.
 
