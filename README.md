@@ -1,6 +1,6 @@
 # nlinv_estimation
  
-Nonlinear inversion (**NLINV**)-based parameter estimation (e.g., water and sttic off-resonance) in image domain.
+Nonlinear inversion (**NLINV**)-based parameter estimation (e.g., water and sttic off-resonance) in the image domain.
 
 The theory is described in
 
