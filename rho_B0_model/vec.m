@@ -1,3 +1,3 @@
 function x = vec(x)
-x =  x(:);
+x = x(:);
 end

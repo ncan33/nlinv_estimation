@@ -4,7 +4,7 @@
 % Started: 05/13/2021, Last modified: 05/17/2021
 
 %% Clean slate
-%close all; clear all; clc;
+close all; clear all; clc;
 
 %% Set directory names
 %--------------------------------------------------------------------------
