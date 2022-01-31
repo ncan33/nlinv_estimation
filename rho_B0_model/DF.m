@@ -3,6 +3,10 @@ function dy = DF(x, dx, TEs)
 % dx   : N1 x N2 x 2
 % TEs  : Ne x 1
 % dy   : N1 x N2 x Ne
+%
+% Written by Nam Gyun Lee
+% Email: nmgyunl@usc.edu, ggang56@gmail.com (preferred)
+% Started: 05/12/2021, Last modified: 05/15/2021
 
 %--------------------------------------------------------------------------
 % Calculate dy = DF(x) * dx (N1 x N2 x Ne)

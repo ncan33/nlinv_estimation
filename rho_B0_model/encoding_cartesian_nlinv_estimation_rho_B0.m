@@ -29,15 +29,13 @@ N2 = size(x,2);
 % W^H * DF^H(x_n) * (y - F(x_n)) + alpha_n * (xhat_0 - xhat_n)
 % (W^H * DF^H(x_n) * DF(x_n) * W + alpha_n * I) * dxhat = b <=> A * x = b
 %--------------------------------------------------------------------------
-tic; fprintf('(CG=%2d): Calculating the %s operator... ', cg_iter, operator_type);
+%tstart = tic; fprintf('(CG=%2d): Calculating the %s operator... ', cg_iter, operator_type);
 dxhat = reshape(in, [N1 N2 2]);
 
 %--------------------------------------------------------------------------
 % Calculate dx = W * dxhat (N1 x N2 x 2)
 %--------------------------------------------------------------------------
 dx = W(dxhat, s, w);
-
-%sqrt(reshape(sum(sum(abs(dx).^2,1),2),[2 1]))
 
 %--------------------------------------------------------------------------
 % Calculate DF(x_n) * dx (N1 x N2 x Ne)
@@ -63,6 +61,6 @@ out = out + alpha_n * dxhat;
 % Vectorize the output
 %--------------------------------------------------------------------------
 out = out(:);
-fprintf('done! (%6.4f sec)\n', toc);
+%fprintf('done! (%6.4f sec)\n', toc(tstart));
 
 end

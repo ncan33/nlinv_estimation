@@ -3,6 +3,10 @@ function x = W(xhat, s, w)
 % s   : 2 x 1
 % w   : N1 x N2
 % x   : N1 x N2 x 2
+%
+% Written by Nam Gyun Lee
+% Email: nmgyunl@usc.edu, ggang56@gmail.com (preferred)
+% Started: 05/12/2021, Last modified: 05/15/2021
 
 %--------------------------------------------------------------------------
 % Calculate x = T * S * xhat, where w = 1 / (1 + w_. * abs(k))^h_.

@@ -2,6 +2,10 @@ function dx = DF_adjoint(x, dy, TEs)
 % x    : N1 x N2 x 2
 % dy   : Nk x Nc x Ne
 % dx   : N1 x N2 x 2
+%
+% Written by Nam Gyun Lee
+% Email: nmgyunl@usc.edu, ggang56@gmail.com (preferred)
+% Started: 05/12/2021, Last modified: 05/15/2021
 
 %--------------------------------------------------------------------------
 % Calculate dx = DF(x)^H * dy (N1 x N2 x 2)
