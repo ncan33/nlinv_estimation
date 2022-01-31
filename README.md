@@ -13,7 +13,7 @@ Nam Gyun Lee, University of Southern California, Dec 2021.
 
 ## Example usage
    
-Run `demo_cartesian_recon_GRE_datasets.m` from [this repository] (https://github.com/usc-mrel/lowfield_maxgirf).
+Run `demo_cartesian_recon_GRE_datasets.m` from [this repository](https://github.com/usc-mrel/lowfield_maxgirf).
 
 Update `multiecho_fullpath` in `demo_human_nlinv_estimation_rho_B0.m`.
 
