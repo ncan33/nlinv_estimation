@@ -17,5 +17,4 @@ Run `demo_cartesian_recon_GRE_datasets.m` from [this repository] (https://github
 
 Update `multiecho_fullpath` in `demo_human_nlinv_estimation_rho_B0.m`.
 
-   Run `demo_human_nlinv_estimation_rho_B0.m` if only CPU is available
-or `demo_human_nlinv_estimation_rho_B0_gpu` if a single GPU is available.
+Run `demo_human_nlinv_estimation_rho_B0.m` when only CPUs are available or `demo_human_nlinv_estimation_rho_B0_gpu.m` if a single GPU is available.
