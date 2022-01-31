@@ -1,6 +1,6 @@
 # nlinv_estimation
  
-Nonlinear inversion (**NLINV**)-based parameter estimation (e.g., water and sttic off-resonance) in the image domain.
+Nonlinear inversion (**NLINV**)-based parameter estimation (e.g., water and static off-resonance) in the image domain.
 
 The theory is described in
 
@@ -13,6 +13,9 @@ Nam Gyun Lee, University of Southern California, Dec 2021.
 
 ## Example usage
    
-   * Load `human_axial_data.mat`.
-   
-   * Run `demo_human_nlinv_estimation_rho_B0.m`.
+Run `demo_cartesian_recon_GRE_datasets.m` from [this repository] (https://github.com/usc-mrel/lowfield_maxgirf).
+
+Update `multiecho_fullpath` in `demo_human_nlinv_estimation_rho_B0.m`.
+
+   Run `demo_human_nlinv_estimation_rho_B0.m` if only CPU is available
+or `demo_human_nlinv_estimation_rho_B0_gpu` if a single GPU is available.
